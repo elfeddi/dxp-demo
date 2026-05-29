@@ -1,0 +1,9 @@
+{
+  "name": "dxp-demo",
+  "version": "1.0.0",
+  "description": "Application de démonstration DxP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}

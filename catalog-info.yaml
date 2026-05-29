@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dxp-demo
+  description: Application de démonstration DxP
+spec:
+  type: service
+  lifecycle: development
+  owner: team-devops
