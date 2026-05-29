@@ -3,6 +3,11 @@ kind: Component
 metadata:
   name: dxp-demo
   description: Application de démonstration DxP
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://github.com/elfeddi/dxp-demo
+    argocd/app-name: dxp-demo
+    tekton.dev/cicd: "true"
 spec:
   type: service
   lifecycle: development
